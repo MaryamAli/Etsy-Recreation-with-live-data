@@ -41,7 +41,11 @@
 //   console.log(etsy);
 // });
 
+(function (){
 
+let templateString = $('#itemTemplate').text();
+
+let templateFunction = _.template(templateString);
 let etsyURL = 'https://api.etsy.com/v2/listings/active.js?api_key=h9oq2yf3twf4ziejn10b717i&keywords=scarf&includes=Images,Shop';
 
 $.ajax({
@@ -49,6 +53,11 @@ $.ajax({
   dataType: 'jsonp',
   method: 'get'
 }).then (function (response) {
-  console.log(response);
+  // console.log(response);
+  var itemHTML = templateFunction(item);
+  $('.mainContentItems').append(itemHTML);
 });
+
+});
+
 

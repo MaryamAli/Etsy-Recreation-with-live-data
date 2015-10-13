@@ -220,7 +220,6 @@ button:hover {
 
 .mainContentInnerBox {
   width: 715px;
-  border: 1px solid red;
   height: 100%;
   padding-left: 17px;
   display: inline-block;
@@ -277,60 +276,52 @@ button:hover {
   height: 3980px;
   clear: both;
   display: inline-block;
-  margin: 0;
-  border: 1px solid blue; }
-
-.eachItem {
-  margin-right: 0;
-  width: 220px;
-  height: 220px;
-  padding: 9px;
-  position: relative;
-  vertical-align: top;
-  display: inline-block;
-  text-color: #555555;
-  font-size: 13px;
-  font-family: Arial;
-  font-style: sans-serif;
-  background-color: #FFFFFF; }
-
-.insideEachItem {
-  width: 215px;
-  height: 215px;
-  border: 1px solid #E1E3DF;
-  background-color: #FFF;
-  border-bottom-color: #CBCCC9;
-  display: inline-block;
-  position: relative;
-  background-color: #FFFFFF;
-  image: 100%; }
-  .insideEachItem .link {
-    float: left;
-    text-decoration: underline; }
-  .insideEachItem .imageContainer {
-    width: 215px;
-    height: 179px;
+  margin: 0; }
+  .mainContentItems .eachItem {
+    margin-right: 0;
+    width: 220px;
+    height: 220px;
+    padding: 9px;
     position: relative;
-    display: block;
-    overflow: hidden; }
-
-.infoUnderImage {
-  width: 215px;
-  height: 36px;
-  margin: 6px;
-  font-family: Arial;
-  font-style: sans-serif;
-  text-color: #555555;
-  display: block;
-  background-color: #FFFFFF; }
-  .infoUnderImage .title {
-    color: #555555;
-    font-size: 12px; }
-
-.shopName {
-  color: #555555;
-  font-size: 12px;
-  text-decoration: underline; }
+    vertical-align: top;
+    display: inline-block;
+    text-color: #555555;
+    font-size: 13px;
+    font-family: Arial;
+    font-style: sans-serif;
+    background-color: #FFFFFF; }
+    .mainContentItems .eachItem .insideEachItem {
+      width: 215px;
+      height: 215px;
+      border: 1px solid #E1E3DF;
+      background-color: #FFF;
+      border-bottom-color: #CBCCC9;
+      display: inline-block;
+      position: relative;
+      background-color: #FFFFFF;
+      image: 100%; }
+      .mainContentItems .eachItem .insideEachItem .imageContainer {
+        width: 215px;
+        height: 179px;
+        display: block;
+        overflow: hidden; }
+        .mainContentItems .eachItem .insideEachItem .imageContainer .infoUnderImage {
+          width: 215px;
+          height: 36px;
+          margin: 6px;
+          font-family: Arial;
+          font-style: sans-serif;
+          text-color: #555555;
+          display: block;
+          background-color: #FFFFFF;
+          position: relative; }
+          .mainContentItems .eachItem .insideEachItem .imageContainer .infoUnderImage .title {
+            color: #555555;
+            font-size: 12px; }
+            .mainContentItems .eachItem .insideEachItem .imageContainer .infoUnderImage .title .shopName {
+              color: #555555;
+              font-size: 12p;
+              text-decoration: underline; }
 
 .leftBox {
   width: 245px;

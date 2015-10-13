@@ -338,7 +338,7 @@ color: #666666
   //contains pg number box at bottom
   // width: 75%;
   width: 715px;
-  border: 1px solid red;
+  // border: 1px solid red;
   // width: 640px;
   height: 100%;
   padding-left: 17px;
@@ -405,6 +405,85 @@ color: #666666
 }
 
 //data content starts here
+// .mainContentItems{
+//   width: 715px;
+//   // width: 640px;
+//   height: 3980px;
+//   clear: both;
+//   display: inline-block;
+//   margin:0;
+//   border: 1px solid blue;
+
+// }
+
+// .eachItem {
+//   // width: 33.33%;
+//   margin-right: 0;
+  
+//   width: 220px;
+//   height: 220px;
+//   padding: 9px;
+//   position: relative;
+//   vertical-align: top;
+//   display: inline-block;
+//   text-color: #555555;
+//   font-size: 13px;
+//   font-family: Arial;
+//   font-style: sans-serif;
+//   background-color: #FFFFFF;
+// }
+
+// .insideEachItem {
+//   width: 215px;
+//   height: 215px;
+//   border: 1px solid #E1E3DF;
+//   background-color: #FFF;
+//   border-bottom-color: #CBCCC9;
+//   display: inline-block;
+//   position: relative;
+//   background-color: #FFFFFF;
+//   image: 100%;
+
+
+// .link{
+//   float: left;
+//   text-decoration: underline;
+
+
+// }
+// .imageContainer {
+//   // image and item url go here
+//   width: 215px;
+//   height: 179px;
+//   // margin-top: 0;
+//   position: relative;
+//   display: block;
+//   overflow: hidden;
+// }
+// }
+
+// .infoUnderImage {
+//   // store name, item name, Price all go here
+//   width: 215px;
+//   height: 36px;
+//   margin: 6px;
+//   font-family: Arial;
+//   font-style: sans-serif;
+//   text-color: #555555;
+//   display: block;
+//   background-color: #FFFFFF;
+
+// .title {
+//   color: #555555;
+//   font-size: 12px;
+// }
+// }
+// .shopName {
+//   color: #555555;
+//   font-size: 12px;
+//   text-decoration: underline;
+// }
+
 .mainContentItems{
   width: 715px;
   // width: 640px;
@@ -412,9 +491,9 @@ color: #666666
   clear: both;
   display: inline-block;
   margin:0;
-  border: 1px solid blue;
+  // border: 1px solid blue;
 
-}
+
 
 .eachItem {
   // width: 33.33%;
@@ -431,7 +510,7 @@ color: #666666
   font-family: Arial;
   font-style: sans-serif;
   background-color: #FFFFFF;
-}
+
 
 .insideEachItem {
   width: 215px;
@@ -445,22 +524,22 @@ color: #666666
   image: 100%;
 
 
-.link{
-  float: left;
-  text-decoration: underline;
+// .link{
+//   float: left;
+//   text-decoration: underline;
 
 
-}
+
 .imageContainer {
   // image and item url go here
   width: 215px;
   height: 179px;
   // margin-top: 0;
-  position: relative;
+  // position: relative;
   display: block;
   overflow: hidden;
-}
-}
+
+
 
 .infoUnderImage {
   // store name, item name, Price all go here
@@ -472,17 +551,23 @@ color: #666666
   text-color: #555555;
   display: block;
   background-color: #FFFFFF;
+  position: relative;
 
 .title {
   color: #555555;
   font-size: 12px;
-}
-}
+
 .shopName {
   color: #555555;
-  font-size: 12px;
+  font-size: 12p;
   text-decoration: underline;
 }
+  }
+    }
+      }
+        }
+          }
+            }
 
 //end of data
 

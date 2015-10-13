@@ -26,7 +26,7 @@
                     <li class='register'><a href="#">Register</a></li>
                     <li class='signInButton'><button><a href="#">Sign   in</a></button></li>
                     <!-- <li class='line'>Line</li> -->
-                    <li class='cart'><a href="#"class='cartA'><span class='icon'><img src="images/cart.png" alt="#"></span><span class='text'>Cart</span></a></li>
+                    <li class='cart'><a href="#"class='cartA'><span class='icon'><img src="..app/cart.png" alt="#"></span><span class='text'>Cart</span></a></li>
                 </ul>
           </div>
       </div>
@@ -212,12 +212,26 @@
 
     <!-- JS RESULTS -->
 
-  <div class ='searchResults'></div>
-<div class='images'></div>
+  
+<!-- <div class='images'></div> -->
 
+<script type='text/template' id='itemTemplate'><div class='eachItem'><a href ='<%url%>'><div class='insideEachItem'>
 
+    <img class='imageContainer' src='<%=Images[0,1].url_570xN%>'></a><hr>
+    <div class='infoUnderImage'><a href='#'>
+      <div class='title'><%=title%></a>
+      <a href='#'><div class='shopName'><%=Shop.shop_name%></a>
+      <div class='price'>$<%=price%>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </script>
+<!-- 
   <script type="text/template" id='itemTemplate'>
-
+<div class ='searchResults'></div>
     <div>
       <p>
         <%=Images[0].url_570xN%>
@@ -235,9 +249,9 @@
     <hr>
 
 
-  </script>
+  </script> -->
 
-
+<!--
   <script type="text/template" id="item-template">
     <li class="item">
       Item Name:
@@ -247,7 +261,7 @@
       Shop Name:
       <%=shopName %>
       </li>
-    </script>
+    </script>  -->
      
 
 <!-- //   var templateString = $('#item-template').text();
